@@ -12,7 +12,7 @@ namespace HospitalManagementSystem2.Repository
         public Task SendEmailAsync(string email, string subject, string htmlMessage)
         {
             var mail = "lobnasalem24@outlook.com";
-            var pass = "lobna123456";
+            var pass = "XXXXXXX";
             var client = new SmtpClient("smtp-mail.outlook.com", 587)
             {
                 EnableSsl = true,
